@@ -1,0 +1,36 @@
+# Python & Virtual Environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.parquet
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local helper scripts
+powershell.cmd
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Planning & PRD documents
+PRD E-Commerce Customer Analytics Dashboard.md
+*PRD*.md
+
+# Root duplicate raw data file (canonical copy is in data/raw/)
+/ecommerce_data.xlsx
+
+# Temporary & Office lock files
+~$*.xlsx
+*.tmp
+*.log
+
+# OS & IDE artifacts
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
